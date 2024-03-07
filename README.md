@@ -22,7 +22,9 @@ git clone https://github.com/der-pun/task-and-notes.git
 ```
 
 ### Install Php Dependencies
+```
 composer install
+```
 
 ### Environment Configuration
 
@@ -42,12 +44,10 @@ php artisan key:generate
   php artisan db:seed 
 ```
 
-### Running the Application
+### Install Passport
 ```
-php artisan serve
+  php artisan passport:install
 ```
-The application should now be running locally at http://localhost:8000.
-
 
 ## Test Credentials
 Email = johndoe@example.com
